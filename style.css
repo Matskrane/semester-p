@@ -29,12 +29,11 @@ a {
     height: 100px;
     background-color: #0087BD;
     overflow: hidden;
-    justify-content: space-between;
 }
 
 .navbar h1 {
     color: #fff;
-    margin: 25px 30px;
+    margin: 25px 20px;
 
 }
 
