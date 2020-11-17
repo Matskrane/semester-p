@@ -29,6 +29,7 @@ a {
     height: 100px;
     background-color: #0087BD;
     overflow: hidden;
+    justify-content: space-between;
 }
 
 .navbar h1 {
@@ -48,8 +49,8 @@ a {
 
 .menu-wrap .toggler {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: 25px;
     z-index: 2;
     cursor: pointer;
     width: 50px;
