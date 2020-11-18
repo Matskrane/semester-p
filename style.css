@@ -265,12 +265,6 @@ a {
     font-size: 20px;
 }
 
-.footer .logo2 {
-    display: inline-block;
-    align-content: center;
-    justify-content: space-between;
-}
-
 .footer h1 {
     padding: 5px;
 }
@@ -280,7 +274,7 @@ a {
 }
 
 .footer .links {
-    margin: 0 5px;
+    margin: 5px 5px;
     padding: 5px;
 }
 
