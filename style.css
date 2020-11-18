@@ -228,3 +228,8 @@ a {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+.showcase2 img {
+    align-content: center;
+    width: 400px;
+}
