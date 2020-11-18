@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
 
 :root {
-    --primary-color: rgba(89, 208, 255, 0.75);
-    --overlay-color: rgba(0, 135, 189, 0.85);
+    --primary-color: rgba(89, 208, 255, 0.90);
+    --overlay-color: rgba(0, 135, 189, 0.90);
     --menu-speed: 0.75s; 
 }
 
@@ -201,15 +201,11 @@ a {
 .card {
     background-color: #0087BD;
     color: #333;
-    border-radius: 100px;
     box-shadow: 0 3px 10px rgba(0, 0 ,0 ,0.2);
     padding: 20px;
     margin: 10px;
 }
 
-.container .grid {
-    max-width: 300px;
-}
 
 /* Showcase 2 */
 
@@ -235,7 +231,7 @@ a {
 
 .showcase2 img {
     align-content: center;
-    width: 400px;
+    width: 420px;
     margin-bottom: 3px;
 }
 
