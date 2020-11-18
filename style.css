@@ -221,10 +221,15 @@ a {
     overflow: hidden;
 }
 
+.showcase2 h2 {
+    color: #536A73;
+}
+
 .showcase2 h3 {
+    color: #fff;
     font-weight: bold;
     padding: 5px;
-    background-color: darkorange;
+    background-color: #BD6500;
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -232,4 +237,34 @@ a {
 .showcase2 img {
     align-content: center;
     width: 400px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #0087BD;
+    height: 150px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer .socials {
+    color: #fff;
+}
+
+.footer h1 {
+    font-size: 20px;
+}
+
+.footer p {
+    font-size: 5px;
+}
+        
+
+.grid-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
 }
