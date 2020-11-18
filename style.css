@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: rgba(89, 208, 255, 0.75);
-    --overlay-color: rgba(0, 135, 189, 0.50);
+    --overlay-color: rgba(0, 135, 189, 0.85);
     --menu-speed: 0.75s; 
 }
 
@@ -221,7 +221,8 @@ a {
 }
 
 .showcase2 h2 {
-    color: #536A73;
+    color: #333;
+    margin: 20px 20px;
 }
 
 .showcase2 h3 {
@@ -229,13 +230,13 @@ a {
     font-weight: bold;
     padding: 5px;
     background-color: #BD6500;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .showcase2 img {
     align-content: center;
     width: 400px;
+    margin-bottom: 3px;
 }
 
 /* footer */
@@ -261,15 +262,20 @@ a {
 
 .footer h2 {
     border-bottom: solid#fff;
-
+    font-size: 20px;
 }
 
 .footer h1 {
     font-size: 25px;
 }
 
-.footer li a {
+.footer a {
     color: #fff;
+}
+
+.footer .links {
+    margin: 0 5px;
+    padding: 5px;
 }
 
 .footer .logo {
