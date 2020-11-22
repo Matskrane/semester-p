@@ -174,8 +174,12 @@ a {
 
 
 .showcase {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-content: center;
+    justify-content: center;
 }
 
 .showcase-form {    
@@ -247,6 +251,7 @@ a {
     color: #fff;
     text-align: center;
     padding-top: 30px;
+    overflow: hidden;
 }
 
 .footer ul {
@@ -284,11 +289,10 @@ a {
     margin-top: 20px;
 }
 
-.footer p {
-    font-size: 5px;
+.footer li {
     padding: 3px;
 }
-        
+ 
 
 .grid-1 {
     grid-template-columns: 1fr 1fr 1fr;
@@ -296,3 +300,4 @@ a {
     align-content: center;
     justify-content: space-between;
 }
+
