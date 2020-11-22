@@ -225,7 +225,7 @@ a {
     margin: auto;
 }
 
-.showcase2 h2 {
+.showcase h2 {
     color: #333;
     margin: 20px 20px;
 }
@@ -257,7 +257,7 @@ a {
 
 .socials a {
     color: #59D0FF;
-    padding: 10px;
+    padding: 11px;
     display: block;
 }
 
@@ -270,9 +270,7 @@ a {
 .footer .header {
     color: #fff;
     display: inline-block;
-    font-size: 20px;
     font-weight: bolder;
-    
 }
 
 
@@ -287,16 +285,19 @@ a {
 
 .footer .logo {
     width: 50px;
-    height: 50px;   
+    height: 50px;
+    margin-top: 20px;   
 }
 
-.footer .logo p {
+.footer .header p {
     font-size: 10px;
+    padding: 20px;
 }
 
 
 .footer li {
-    padding: 5px;
+    padding: 7px;
+    
 }
  
 
