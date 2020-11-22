@@ -248,7 +248,6 @@ a {
 .footer {
     background-color: #0087BD;
     height: 200px;
-    color: #fff;
     text-align: center;
     padding-top: 30px;
     overflow: hidden;
@@ -259,7 +258,7 @@ a {
 }
 
 .socials a {
-    color: #fff;
+    color: #59D0FF;
     padding: 10px;
     display: block;
     margin-left: 20px;
@@ -272,15 +271,19 @@ a {
 
 .footer h1 {
     padding: 5px;
-}
-
-.footer a {
     color: #fff;
 }
+
+
 
 .footer .links {
     margin: 5px 5px;
     padding: 5px;
+    color: #fff;
+}
+
+.links a {
+    color: #fff;
 }
 
 .footer .logo {
