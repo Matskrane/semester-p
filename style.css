@@ -260,6 +260,7 @@ a {
     max-width: 500px;
     overflow: hidden;
     margin: auto;
+    
 }
 
 .showcase h2 {
@@ -270,14 +271,14 @@ a {
     color: #fff;
     font-weight: bold;
     padding: 10px;
-    background-color: #536A73;   
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    background-color: #536A73; 
 }
 
 .showcase2 img {
     align-content: center;
     max-width: 100%;
     margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 
 /* footer */
@@ -330,7 +331,8 @@ a {
 
 .footer .header p {
     font-size: 8px;
-    padding: 35px;
+    opacity: 50%;
+    color: #fff;
 }
 
 
