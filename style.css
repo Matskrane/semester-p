@@ -31,6 +31,7 @@ a {
     height: 100px;
     background-color: #0087BD;
     justify-content: space-between;
+    border-bottom: solid#59D0FF;
 }
 
 .container {
@@ -289,6 +290,7 @@ a {
     text-align: center;
     padding-top: 30px;
     overflow: hidden;
+    border-top: solid#59D0FF;
 }
 
 
