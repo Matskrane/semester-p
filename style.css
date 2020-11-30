@@ -356,10 +356,10 @@ a {
 
 .about .container {
     display: flex;
-    border-width: 2px;
     margin-top: 50px;
     margin-bottom: 50px;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 700px;
 }
 
 .about h1, p {
@@ -378,6 +378,13 @@ a {
 .about img {
     max-width: 100%;
     max-height: 100%;
+    margin-bottom: 0px;
+}
+
+.about button {
+    background-color: #536A73;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 
