@@ -359,20 +359,15 @@ a {
 /* About us */
 
 
-
-.about .container .grid {
-    margin: auto;
+.about {
+    margin: 15px;
     display: inline-block;
     justify-content: center;
     align-content: center;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 50px;
     margin-bottom: 50px;
-    max-width: 1100px;   
-}
-
-.about {
-    margin: 15px;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 500px;   
 }
 
 
