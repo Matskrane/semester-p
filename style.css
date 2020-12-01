@@ -396,7 +396,38 @@ a {
     border: solid#59D0FF;
     border-width: 2px;
     color:#fff;
+    font-weight: bold;
 }
+
+/* Handicap */
+
+.handicap {
+    margin: 25px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.handicap img {
+    max-width: 100%;
+}
+
+.handicap .container {
+    position: relative;
+    text-align: center;
+    color:#333;
+    font-weight: bold;
+}
+    
+
+
+.handicap p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+
 
 
 @media (min-width:700px) {
