@@ -32,6 +32,7 @@ a {
     background-color: #0087BD;
     justify-content: space-between;
     border-bottom: solid#59D0FF;
+    border-width: 5px;
 }
 
 .container {
@@ -291,6 +292,7 @@ a {
     padding-top: 30px;
     overflow: hidden;
     border-top: solid#59D0FF;
+    border-width: 5px;
 }
 
 
@@ -356,13 +358,23 @@ a {
 
 /* About us */
 
-.about .container {
-    display: flex;
+
+
+.about .container .grid {
+    margin: auto;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-width: 700px;
+    max-width: 1100px;   
 }
+
+.about {
+    margin: 15px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 .about h1, p {
     margin-left: 20px;
@@ -379,14 +391,16 @@ a {
 
 .about img {
     max-width: 100%;
-    max-height: 100%;
-    margin-bottom: 0px;
 }
 
 .about button {
-    background-color: #536A73;
+    background-color: #0087BD;
     margin-left: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid#59D0FF;
+    border-width: 2px;
+    color:#fff;
 }
 
 
