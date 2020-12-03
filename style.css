@@ -249,7 +249,7 @@ a {
 .card {
     background-color: #fff;
     color: #333;
-    box-shadow: rgba(89, 208, 255, 0.50) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
     margin: 15px;
 }
@@ -450,8 +450,8 @@ a {
 .showcase-explore {
     max-width: 700px;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     align-content: center;
     justify-content: center;
 }
@@ -471,7 +471,7 @@ a {
 }
 
 .showcase-explore h2 {
-    margin-top: 10px 0;
+    font-size: 20px;
     max-width: 350px;
     font-weight: bolder;
 }
@@ -479,6 +479,7 @@ a {
 .showcase-explore h3 {
     font-weight: bold;
     opacity: 80%;
+    font-size: 17px;
 }
 
 .showcase-explore .header p {
@@ -486,7 +487,8 @@ a {
 }
 
 .text-card {
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 
