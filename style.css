@@ -39,6 +39,7 @@ a {
     max-width: 1100px;
     margin: 0 auto;
     overflow: hidden;
+    margin-left: 15px;
 }
 
 .flex {
@@ -453,7 +454,10 @@ a {
     margin-bottom: 50px;
     align-content: center;
     justify-content: center;
-    
+}
+
+.showcase-explore .card-2 {
+    margin: 25px;
 }
 
 .showcase-explore .p1 {
