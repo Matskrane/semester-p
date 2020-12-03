@@ -444,6 +444,35 @@ a {
 
 
 
+/* Explore */
+
+.showcase-explore {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.showcase-explore .p1 {
+    margin: 15px 0;
+}
+
+.showcase-explore img {
+    max-width: 100%;
+}
+
+.showcase-explore .header {
+    margin: 10px 0;
+    max-width: 350px;
+}
+
+.showcase-explore .header p {
+}
+
+
 @media (min-width:700px) {
 
     .menu-wrap {
