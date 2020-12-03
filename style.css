@@ -32,7 +32,7 @@ a {
     background-color: #0087BD;
     justify-content: space-between;
     border-bottom: solid#59D0FF;
-    border-width: 5px;
+    border-width: 4px;
 }
 
 .container {
@@ -295,7 +295,7 @@ a {
     padding-top: 30px;
     overflow: hidden;
     border-top: solid#59D0FF;
-    border-width: 5px;
+    border-width: 4px;
 }
 
 
