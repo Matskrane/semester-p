@@ -415,6 +415,7 @@ a {
     font-weight: bolder;
     border-bottom: solid #536A73;
     color: #536A73;
+    border-width: 2px;
     margin: auto;
     text-align: center;
     margin-bottom: 50px;
