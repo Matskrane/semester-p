@@ -229,19 +229,18 @@ a {
 
 .showcase-form h2 {
     color: #333;
-    text-align: center;
+    padding-left: 20px;
 }
 
 .showcase-form p {
     color: #333;
-    text-align: center;
     margin-top: 15px;
 }
 
 .showcase-form h3 {
     color: #333;
-    text-align: center;
     margin-top: 15px;
+    padding-left: 20px;
 }
 
 
@@ -264,7 +263,7 @@ a {
     max-width: 400px;    
 }
 .showcase2 {
-    margin: 30px;
+    margin: 15px;
 }
 
 .showcase h2 {
@@ -272,10 +271,10 @@ a {
 }
 
 .showcase2 h3 {
-    color: #fff;
+    color: #536A73;
     font-weight: bold;
     padding: 10px;
-    background-color: #536A73; 
+    box-shadow: rgba(89, 208, 255, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
 }
 
 .showcase2 img {
@@ -423,7 +422,7 @@ a {
 .visit p {
     font-weight: bold;
     font-size: 20px;
-    color: #333;
+    color: #536A73;
     padding-top: 10px;
 }
 
@@ -459,7 +458,7 @@ a {
 
 .showcase-explore .card-2 {
     margin: 25px;
-    box-shadow: rgba(89, 208, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(89, 208, 255, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .showcase-explore p {
