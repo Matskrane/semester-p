@@ -247,7 +247,7 @@ a {
 .card {
     background-color: #fff;
     color: #333;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: rgba(89, 208, 255, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     padding: 20px;
     margin: 15px;
 }
