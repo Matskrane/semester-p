@@ -378,10 +378,13 @@ a {
 
 .about h1 {
     font-size: 20px;
+    margin-top: 5px;
 }
 
 .about p {
     font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .about img {
@@ -389,14 +392,15 @@ a {
 }
 
 .about button {
-    background-color: #0087BD;
+    width: 100px;
+    height: 30px;
+    box-shadow: rgba(89, 208, 255, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: solid#59D0FF;
-    border-width: 2px;
     color:#fff;
-    font-weight: bold;
+    font-weight: bolder;
+    border: none;
 }
 
 /* what can we offer */
