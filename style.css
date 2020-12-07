@@ -25,35 +25,37 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 /*navbar*/
 
 .navbar {
     height: 100px;
     background-color: #0087BD;
-    justify-content: space-between;
     border-bottom: solid#59D0FF;
     border-width: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .flex {
     display: flex;
+    justify-content: space-between;
     height: 100%;
-    align-items: center;
+    align-items: center;   
 }
 
-.desktop {
-    margin: 0 auto;
-}
 
 .desktop ul {
     display: flex;
-    justify-content: space-between;
 }
 
 .desktop a {
@@ -66,14 +68,14 @@ a {
 }
 
 .desktop li {
-    font-size: 20px;
-    padding: 15px;
+    font-size: 25px;
+    padding: 20px;
 }
 
 .navbar h1 {
     color: #fff;
-    margin: auto;
 }
+
 
 /* Menu */
 
@@ -133,7 +135,6 @@ a {
     background: inherit;    
 }
 
-/* Moves line down */
 
 .menu-wrap .hamburger > div:after {
     top: 10px;
@@ -213,7 +214,7 @@ a {
 
 
 .showcase {
-    max-width: 700px;
+    max-width: 500px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -222,7 +223,6 @@ a {
 }
 
 .showcase-form {    
-    height: 350px;
     position: relative;
     align-content: center;   
 }
@@ -258,9 +258,7 @@ a {
 .flexbox {
     text-align: center;
     align-content: center;
-    overflow: hidden;
-    margin: auto;
-    max-width: 400px;    
+    margin: auto;        
 }
 .showcase2 {
     margin: 15px;
@@ -275,6 +273,7 @@ a {
     font-weight: bold;
     padding: 10px;
     box-shadow: rgba(89, 208, 255, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+    max-width: auto;
 }
 
 .showcase2 img {
@@ -282,6 +281,10 @@ a {
     max-width: 100%;
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.desktop1 {
+    max-width: 500px;
 }
 
 /* footer */
@@ -605,18 +608,33 @@ a {
     .menu-wrap {
         visibility: hidden;
     }
-
+    
+    
+    
     
 }
 
 @media (max-width:700px) {
     
-    .navbar .desktop a  {
+    .navbar .desktop ul  {
         visibility: hidden;
         display: none;
     }
+    
+
+}
 
 
+@media (min-width:1000px) {
 
+    .flexbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;           
+    }
 
+    .flexbox .desktop1 {
+        padding: 20px;
+        line-height: 30px;
+    }
+        
 }
