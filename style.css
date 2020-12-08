@@ -361,40 +361,11 @@ img {
 /* About us */
 
 
-.about {
-    margin: auto;  
-    justify-content: center;
-    align-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    max-width: 700px; 
-    box-shadow: rgba(89, 208, 255, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
 
-
-.container .grid-3 {
-    margin: 15px;
-}
-
-
-.about h1 {
-    padding: 5px 15px;
-}
-
-.about p {
-    padding: 5px 15px;
-
-}
-
-.about img {
-    max-width: 100%;
-}
-
-.about button {
+.showcase-explore button {
     width: 100px;
     height: 30px;
     box-shadow: rgba(83, 106, 115, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 15px;
     color: #fff;
@@ -462,7 +433,7 @@ img {
 
 .showcase-explore .card-2 {
     margin: 25px;
-    box-shadow: rgba(112, 60, 0, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(89, 208, 255, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .showcase-explore p {
