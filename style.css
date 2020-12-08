@@ -295,7 +295,7 @@ img {
     text-align: center;
     padding-top: 30px;
     border-top: solid#59D0FF;
-    border-width: 4px;
+    border-width: 3px;
 }
 
 
@@ -365,10 +365,10 @@ img {
 .showcase-explore button {
     width: 100px;
     height: 30px;
-    box-shadow: rgba(83, 106, 115, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(112, 60, 0, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     margin-top: 10px;
     margin-bottom: 15px;
-    color: #fff;
+    color: #000000;
     font-weight: bolder;
     border: none;
 }
@@ -433,7 +433,7 @@ img {
 
 .showcase-explore .card-2 {
     margin: 25px;
-    box-shadow: rgba(89, 208, 255, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(112, 60, 0, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .showcase-explore p {
@@ -489,7 +489,7 @@ img {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 100px;
-    box-shadow: rgba(89, 208, 255, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(112, 60, 0, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     max-width: 700px;
 }
 
@@ -515,7 +515,7 @@ img {
 .contact-form {
     width: 95%;
     padding: 40px;
-    box-shadow: rgba(89, 208, 255, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+    box-shadow: rgba(112, 60, 0, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
     margin: auto;
     margin-bottom: 100px;
     max-width: 700px;   
@@ -566,8 +566,8 @@ img {
 
 .contact-form .input  input[type="submit"] {
     width: 100px;
-    background: #59D0FF;
-    color: #333;
+    box-shadow: rgba(112, 60, 0, 0.70) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    color: #000000;
     border: none;
     cursor: pointer;
     padding: 18px;
