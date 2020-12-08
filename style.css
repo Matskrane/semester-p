@@ -68,11 +68,12 @@ img {
 
 .desktop li {
     font-size: 25px;
-    padding: 20px;
+    padding-left: 35px;
 }
 
-.navbar h1 {
+.navbar h1 a {
     color: #fff;
+    padding-right: 100px;
 }
 
 
@@ -312,11 +313,16 @@ img {
     border-width: 2px;
 }
 
-.footer .header {
+.footer .header  {
     color: #fff;
     display: inline-block;
     font-weight: bolder;
     font-size: 12px;
+}
+
+.footer .header a {
+    color: #fff;
+
 }
 
 
@@ -372,6 +378,10 @@ img {
     font-weight: bolder;
     border: none;
 }
+.showcase-explore button a {
+    color: #000000;
+}
+
 
 /* what can we offer */
 
@@ -647,6 +657,30 @@ img {
 
     .about p {
         font-size: px;
+    }
+
+    .footer .header {
+        font-size: 18px;
+    }
+
+    .footer .header p {
+        font-size: 13px;
+    }
+
+    .footer .socials {
+        font-size: 19px;
+    }
+
+    .footer {
+        height: 230px;
+    }
+
+    .footer .links h2 {
+        font-size: 23px;
+    }
+
+    .footer .links a {
+        font-size: 18px;
     }
 
 
