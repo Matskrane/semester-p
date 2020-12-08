@@ -362,15 +362,15 @@ img {
 
 
 .about {
-    margin: 15px;
-    display: inline-block;
+    margin: auto;  
     justify-content: center;
     align-content: center;
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 50px;
     margin-bottom: 50px;
-    max-width: 500px;   
+    max-width: 500px; 
 }
+
 
 
 .about h1, p {
@@ -642,9 +642,13 @@ img {
 
 @media (max-width:700px) {
     
-    .navbar .desktop ul  {
+    .navbar .desktop a   {
         visibility: hidden;
         display: none;
+    }
+
+    .navbar .menu ul {
+        visibility: visible;
     }
     
 
@@ -664,3 +668,4 @@ img {
     }
         
 }
+
