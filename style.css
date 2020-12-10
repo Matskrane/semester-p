@@ -185,7 +185,6 @@ img {
     flex: none;
     align-items: center;
     justify-content: center;
-    
 }
 
 .menu-wrap .menu > div > div {
@@ -602,17 +601,7 @@ img {
 
 
     
-    .showcase-form h2 {
-        font-size: 30px;
-    }
-
-    .showcase-form h3 {
-        font-size: 25px;
-    }
-
-    .showcase-form p {
-        font-size: 20px;
-    }
+    
     
 
     .showcase-explore h2 {
@@ -709,6 +698,8 @@ img {
         padding: 20px;
         line-height: 30px;
     }
+
+        
         
 }
 
