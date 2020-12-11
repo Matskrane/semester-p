@@ -430,7 +430,7 @@ img {
 /* Explore */
 
 .showcase-explore {
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -584,7 +584,6 @@ img {
 
 
 
-
 @media (min-width:700px) {
 
     .menu-wrap {
@@ -667,6 +666,36 @@ img {
         font-size: 18px;
     }
 
+    .card {
+        display: flex;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-between;
+    }
+
+    .showcase {
+        max-width: 700px;
+    }
+
+    .xd {
+        max-width: 350px;
+        padding: 15px;
+        margin-left: 20px;
+    }
+
+    .xd p {
+        max-width: 200px;
+    }
+
+    .dx {
+        padding: 15px;
+        margin-right: 20px;
+    }
+
+    .dx h3 {
+        margin-top: 0px;
+    }
+
+
 
 }
 
@@ -676,10 +705,7 @@ img {
         visibility: hidden;
         display: none;
     }
-
-
-    
-    
+         
 }
 
 
