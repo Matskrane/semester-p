@@ -55,6 +55,7 @@ img {
 
 .desktop ul {
     display: flex;
+    padding-right: 5px;
 }
 
 .desktop a {
@@ -73,7 +74,6 @@ img {
 
 .navbar h1 a {
     color: #fff;
-    padding-right: 100px;
 }
 
 
