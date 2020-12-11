@@ -302,10 +302,10 @@ img {
     color: #fff;
     padding: 10px;
     display: block;
-    margin-left: 15px;
+    margin-left: 16px;
 }
 
-.footer h2 {
+.footer h3 {
     border-bottom: solid#fff;
     font-size: 20px;
     border-width: 2px;
@@ -315,7 +315,7 @@ img {
     color: #fff;
     display: inline-block;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .footer .header a {
@@ -583,6 +583,8 @@ img {
 }
 
 
+
+
 @media (min-width:700px) {
 
     .menu-wrap {
@@ -597,13 +599,7 @@ img {
         visibility: hidden;
         display: none;
     }
-
-
-
-    
-    
-    
-
+ 
     .showcase-explore h2 {
         font-size: 30px;
     }
@@ -648,7 +644,7 @@ img {
     }
 
     .footer .header {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .footer .header p {
@@ -663,7 +659,7 @@ img {
         height: 230px;
     }
 
-    .footer .links h2 {
+    .footer .links h3 {
         font-size: 23px;
     }
 
